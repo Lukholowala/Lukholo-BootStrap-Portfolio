@@ -12,7 +12,7 @@
  * Base structure
  */
 
-body {}
+
 
 
 
@@ -22,7 +22,7 @@ body {}
  */
 
  .banner-wrap{
-  background-image: url(./assets/bg-image.jpg);
+  background-image: url(./assets/bg-image.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,4 +57,15 @@ body {}
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+header{
+  background: black;
+  opacity: 80%;
+}
+
+.scrolling{
+  background: black;
+  opacity: 90%;
+  transition: all 0.5s;
 }
